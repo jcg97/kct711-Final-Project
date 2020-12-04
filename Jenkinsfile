@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine' 
-            args '-v /root/.m2:/root/.m2' 
+            args '-v C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\kct711-final' 
         }
     }
     stages {
